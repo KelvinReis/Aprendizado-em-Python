@@ -1,0 +1,10 @@
+# Desafio 003 da aula 06 do curso em vídeo de python
+x = input('Digite algo:\n')
+print('O tipo da variável digitada é ', type(x))
+print('É numérico? ', x.isnumeric())
+print('É alfabético? ', x.isalpha())
+print('É tudo maiśucula? ', x.isupper())
+print('É tudo minúscula? ', x.islower())
+print('É capitalizada? ', x.istitle())
+print('É alfanumérico? ', x.isalnum())
+print('É somente espaços? ', x.isspace())
